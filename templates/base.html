@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>{% block title %}基础页面{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
     {% block head %}{% endblock %}
 </head>
 <body>

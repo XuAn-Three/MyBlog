@@ -1,0 +1,44 @@
+/*
+index.css 1.0
+*/
+#header{
+    width: 1200px;
+    height: 60px;
+    margin: auto;
+    background: #0f6674;
+    border-bottom:solid 5px rgba(0, 0, 0, 0.43);
+}
+.nav-item{
+    float: left;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.nav-item a{
+    font-size: 35px;
+    background: #0f6674;
+}
+.search{
+    height: 30px;
+    margin-top: 25px;
+    margin-right: 20px;
+    float: right;
+    background: #005cbf;
+}
+.search-commit{
+    width: 80px;
+    background-color: #005cbf;
+}
+
+#bodier{
+    width: 1200px;
+    height: 800px;
+    margin: auto;
+    background: #9fcdff;
+}
+
+#footer{
+    width: 1200px;
+    height: 120px;
+    margin: auto;
+    background: #6f42c1;
+}

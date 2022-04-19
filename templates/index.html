@@ -1,6 +1,33 @@
 {% extends "base.html" %}
 
 {% block title %}首页{% endblock %}
-{% block head %}{% endblock %}
-{% block body %}首页{% endblock %}
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+{% endblock %}
+{% block body %}
+<div id="container">
+    <div id="header">
+        <div id="nav">
+            <ul>
+                <li class="nav-item"><a href="#">首页</a></li>
+                <li class="nav-item"><a href="#">头条</a></li>
+                <li class="nav-item"><a href="#">搜索</a></li>
+                <li class="nav-item"><a href="#">百科</a></li>
+                <li class="nav-item"><a href="#">咨询</a></li>
+            </ul>
+            <input type="text" name="搜索框" value="请输入要搜索的内容" class="search">
+            <input type="button" name="scommit" placeholder="搜索" value="搜索" class="search search-commit"></input>
+        </div>
+        <div id="search">
+
+        </div>
+    </div>
+    <div id="bodier">
+        主体
+    </div>
+    <div id="footer">
+        脚部
+    </div>
+</div>
+{% endblock %}
 {% block foot %}{% endblock %}
